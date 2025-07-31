@@ -1,4 +1,4 @@
-📊 #Portfólio de Projetos em Análise de Dados
+# 📊 Portfólio de Projetos em Análise de Dados
 
 Este repositório reúne projetos desenvolvidos com o objetivo de praticar, consolidar e demonstrar habilidades em análise de dados utilizando ferramentas como Python, SQL, Power BI e Excel.
 
