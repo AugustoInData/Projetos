@@ -1,45 +1,50 @@
 # 📈 Análise do Preço da Gasolina por Dia
-Este projeto realiza uma análise visual do preço da gasolina ao longo de diversos dias, utilizando bibliotecas poderosas de visualização em Python, como matplotlib e seaborn.
 
-📂 Arquivos
-gasolina.csv: Arquivo de entrada contendo os dados de venda da gasolina.
+Este projeto realiza uma análise visual do preço da gasolina ao longo de diversos dias, utilizando poderosas bibliotecas de visualização em Python, como `matplotlib` e `seaborn`.
 
-gasolina.png: Gráfico gerado com os dados do arquivo CSV.
+---
 
-gasolina.py: Arquivo Python com o código completo que realiza a análise.
+## 📂 Arquivos do Projeto
 
-📊 O que o código faz
-Importa bibliotecas:
+- **gasolina.csv**  
+  Arquivo de entrada contendo os dados diários de venda da gasolina.
 
-pandas para manipulação de dados.
+- **gasolina.png**  
+  Gráfico gerado a partir dos dados do arquivo CSV, mostrando a evolução do preço.
 
-matplotlib.pyplot e seaborn para visualização gráfica.
+- **gasolina.py**  
+  Código Python completo que realiza a análise e gera o gráfico.
 
-Lê o arquivo gasolina.csv com os dados de vendas por dia.
+---
 
-Gera um gráfico de linha:
+## 📊 Funcionalidades do Código
 
-Eixo X: dias (coluna dia).
+- Importa bibliotecas essenciais:  
+  - `pandas` para manipulação e análise dos dados.  
+  - `matplotlib.pyplot` e `seaborn` para criação e customização dos gráficos.
 
-Eixo Y: preço da gasolina (coluna venda).
+- Lê o arquivo `gasolina.csv`, que contém o preço da gasolina por dia.
 
-Os pontos são marcados com círculos para facilitar a visualização de variações pontuais.
+- Gera um gráfico de linha:  
+  - **Eixo X:** dias (coluna `dia`).  
+  - **Eixo Y:** preço da gasolina (coluna `venda`).  
+  - Pontos destacados com círculos para facilitar a visualização das variações pontuais.
 
-Personaliza o gráfico:
+- Personaliza o gráfico com:  
+  - Título: "Preço da Gasolina por Dia".  
+  - Estilo visual limpo usando `seaborn` no modo `whitegrid`.  
+  - Layout ajustado automaticamente para melhor visualização.
 
-Título: "Preço da Gasolina por Dia".
+- Exporta o gráfico como imagem (`gasolina.png`) para fácil compartilhamento e apresentação.
 
-Estilo visual limpo usando whitegrid.
+---
 
-Layout ajustado automaticamente com tight_layout().
+## 🧠 Insights e Aplicações
 
-Exporta a imagem do gráfico (gasolina.png) e salva o código usado em um arquivo .py (gasolina.py).
+Este gráfico possibilita:
 
-🧠 Insight gerado pelo gráfico
-A visualização do preço da gasolina por dia permite:
+- **Identificar tendências** de aumento ou queda do preço da gasolina ao longo do tempo.  
+- **Detectar anomalias ou picos**, indicando possíveis eventos externos, como variações de mercado ou alterações tributárias.  
+- **Auxiliar na tomada de decisões** para motoristas, gestores de frota, analistas econômicos e demais interessados em acompanhar a evolução dos preços.
 
-Identificar tendências: aumento ou queda do preço ao longo do tempo.
-
-Detectar anomalias ou picos: variações bruscas que podem indicar eventos externos (ex: mudanças no mercado, impostos, etc).
-
-Facilitar a tomada de decisões: útil para motoristas, gestores de frota, ou análises econômicas.
+---
