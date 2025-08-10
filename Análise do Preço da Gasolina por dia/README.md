@@ -44,7 +44,7 @@ Este projeto realiza uma análise visual do preço da gasolina ao longo de diver
 Este gráfico possibilita:
 
 - **Identificar tendências** de aumento ou queda do preço da gasolina ao longo do tempo.  
-- **Detectar anomalias ou picos**, indicando
+- **Detectar anomalias ou picos**, indicando possíveis eventos externos, como variações de mercado ou alterações tributárias.  
 - **Auxiliar na tomada de decisões** para motoristas, gestores de frota, analistas econômicos e demais interessados em acompanhar a evolução dos preços.
 
 ---
